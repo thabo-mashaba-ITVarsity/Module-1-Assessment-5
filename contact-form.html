@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <!--Links the CSS and HTML pages-->
+        <link rel="stylesheet" href="style.css">
+        
+       
+    </head>
+    <body>
+         <!--Creates the navigation-->
+         <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact-form.html">Contact</a>
+        </div>
+        
+         <!--Creates Heading-->
+        <h1>Hello and Welcome, Please feel free to give us your feedBack</h1>
+        
+        <!--Below form creates the radio buttons and text boxes -->
+        <form>
+            <label for="name"> Name: </label><input type="text" id="name"/>
+            <br/><br/>
+            <label for="surName"> Surname: </label><input type="text" id="surName"/>
+            <br/><br/>
+            <label for="email"> Email: </label><input type="text" id="email"/>
+            <br/><br/>
+            <label for="message"> Message: </label><input type="text" id="message"/>
+            
+            <!--creates paragraph-->
+            <div id="form"> 
+                <p>We will make sure to get back to you</p>
+            </div>
+            <br/><br/>
+            
+            <!--creates paragraph-->
+            <div id = "form">
+                <p>Please select your Favourite Superhero below.</p>
+            </div>
+            
+            <!--Below lines of code creates the radio buttons-->
+            <input type="radio" id="iron man" name="superhero"/>
+            <label for="iron man">Iron Man </label>
+            <br/> <br/>
+            
+            <input type="radio" id="hulk" name="superhero"/>
+            <label for="hulk">Hulk </label>
+            <br/> <br/>
+            
+            <input type="radio" id="hawkey" name="superhero"/>
+            <label for="hawkey">Hawkey </label>
+            <br/> <br/>
+            
+            <input type="radio" id="captain-america" name="superhero"/>
+            <label for="captain-america">Captain America</label>
+            <br/> <br/>
+            
+            <input type="radio" id="black-widow" name="superhero"/>
+            <label for="black-widow">Black Widow</label>
+            <br/> <br/>
+            
+            <input type="radio" id="thor" name="superhero"/>
+            <label for="thor">Thor </label>
+            <br/> <br/>
+            
+            <!-- Below lines creates a button-->
+            <input type="submit" value="Send"/>
+            <input type="reset" value="Clear"/>
+           
+        </form>
+    </body>
+</html>
